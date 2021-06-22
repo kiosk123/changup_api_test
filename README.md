@@ -14,7 +14,12 @@ serviceKey는 Encoding과 Decoding 방식이 있는데 두가지 방식 중에�
   - vEPsfUSBEBqVe2urfoNPkd0X3OYf9Ok+CUlKFmXKRta9VFTlaShY0uN0buD8MrmCWSrjJDQXWXniDu63VksEaA==
 
 
+## 확인된 것
 
+curl로 서비스키 `xGMSjzWMa5MtIyn%2FRgVvPV1MV9%2BNVznfh3uBp%2FBB1iEUqT7ewoagM3mbTVzxXl0RPNrnfAGkDdjrJYc39VqhpA%3D%3D`에 대한 응답데이터 확인
+```bash
+curl -i -G -d serviceKey=xGMSjzWMa5MtIyn%2FRgVvPV1MV9%2BNVznfh3uBp%2FBB1iEUqT7ewoagM3mbTVzxXl0RPNrnfAGkDdjrJYc39VqhpA%3D%3D http://openapi.kised.or.kr/openapi/service/rest/ContentsService/getAnnouncementList
+```
 
 
 
